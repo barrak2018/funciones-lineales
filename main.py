@@ -18,9 +18,9 @@ import matplotlib.pyplot as pp
 
 # funciones
 def MuestraTitulo ():
-    for i in range(0,10):
+    for i in range(0,20):
         print('\n\r')
-    tittle = "  _____                        .__  .__                     .__   \n_/ ____\_ __  ____             |  | |__| ____   ____ _____  |  |  \n\   __\  |  \/    \    ______  |  | |  |/    \_/ __ \ \__ \ |  |  \n |  | |  |  /   |  \  /_____/  |  |_|  |   |  \  ___/ / __ \|  |__\n |__| |____/|___|  /           |____/__|___|  /\___  >____  /____/\n                 \/                         \/     \/     \/      "
+    tittle = "funcion lineal"
     print(tittle)
 
 def linearFuntion(dependiente = 1, independiente = 0):
@@ -30,7 +30,7 @@ def linearFuntion(dependiente = 1, independiente = 0):
     MuestraTitulo()
     print('\nValores de coordenadas')
     for index, tupla in enumerate (tabla):
-        a, b = tupla 
+        x, y = tupla 
         print(f"{index+1}: X= {a} Y= {b}")
     
     pp.plot(x, y)
