@@ -46,7 +46,6 @@ def MuestraMenu():
     menu = f"1: salir \n\r2: funcion lineal"
     print(menu)
 
-
 # main
 
 while (True):
