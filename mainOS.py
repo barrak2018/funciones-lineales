@@ -43,6 +43,7 @@ def linearFuntion(dependiente = 1, independiente = 0):
     pp.grid()
     print('cerrar grafica para terminar')
     pp.show()
+    input('pulse enter para continuar')
 
 def MuestraMenu():
     menu = f"1: salir \n\r2: funcion lineal"
