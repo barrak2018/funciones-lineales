@@ -13,13 +13,16 @@
 # Leonardo Yanez
 # C.I: V-30.300.275
 import matplotlib.pyplot as pp
-
+import os
 
 
 # funciones
 def MuestraTitulo ():
-    for i in range(0,20):
-        print('\n\r')
+    if os.name == "ce" or os.name == "nt" or os.name == "dos":
+        var = "cls"       
+    else:
+        var = "clear"
+    os.system(var)
     tittle = "  _____                        .__  .__                     .__   \n_/ ____\_ __  ____             |  | |__| ____   ____ _____  |  |  \n\   __\  |  \/    \    ______  |  | |  |/    \_/ __ \ \__ \ |  |  \n |  | |  |  /   |  \  /_____/  |  |_|  |   |  \  ___/ / __ \|  |__\n |__| |____/|___|  /           |____/__|___|  /\___  >____  /____/\n                 \/                         \/     \/     \/      "
     print(tittle)
 
