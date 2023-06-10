@@ -69,7 +69,7 @@ while (True):
             b = int(input('favor de ingresar la variable independiente:  '))
             linearFuntion(a, b)
         except:
-            print('Err de tipado')
+            print('Sintax Err')
             input('enter para continuar')
     else:
         print('Error')
