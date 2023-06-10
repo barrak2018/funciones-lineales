@@ -12,6 +12,9 @@
 
 # Leonardo Yanez
 # C.I: V-30.300.275
+
+# Corte 2 E1
+
 import matplotlib.pyplot as pp
 import os
 
