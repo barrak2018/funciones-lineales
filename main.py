@@ -23,11 +23,11 @@ def linearFuntion(dependiente = 1, independiente = 0):
     y = list (map(lambda x : (x* dependiente + independiente), x))
     tabla =  list(zip(x,y))
     for index, tupla in enumerate (tabla):
-        x, y = tupla 
-        print(f"{index+1}: X= {x} Y= {y}")
-    pp.plot(x,y)
+        a, b = tupla 
+        print(f"{index+1}: X= {a} Y= {b}")
+    print (x, y)
+    pp.plot(x, y)
     pp.show()
-    
 
 
 
