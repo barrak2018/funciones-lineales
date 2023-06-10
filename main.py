@@ -60,6 +60,7 @@ while (True):
 
 
     if option == 1:
+        MuestraTitulo ()
         break
     elif option == 2:
         
