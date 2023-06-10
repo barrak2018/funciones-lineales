@@ -18,10 +18,10 @@ import os
 
 # funciones
 def MuestraTitulo ():
-    if os.name == "posix":
-        var = "clear"       
-    elif os.name == "ce" or os.name == "nt" or os.name == "dos":
-        var = "cls"
+    if os.name == "ce" or os.name == "nt" or os.name == "dos":
+        var = "cls"       
+    else:
+        var = "clear"
     os.system(var)
     tittle = "  _____                        .__  .__                     .__   \n_/ ____\_ __  ____             |  | |__| ____   ____ _____  |  |  \n\   __\  |  \/    \    ______  |  | |  |/    \_/ __ \ \__ \ |  |  \n |  | |  |  /   |  \  /_____/  |  |_|  |   |  \  ___/ / __ \|  |__\n |__| |____/|___|  /           |____/__|___|  /\___  >____  /____/\n                 \/                         \/     \/     \/      "
     print(tittle)
